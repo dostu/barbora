@@ -1,0 +1,1 @@
+`COOKIE="" ruby barbora.rb`
