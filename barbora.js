@@ -12,7 +12,7 @@ async function run() {
   console.log(`${new Date()} - ${available}`)
 
   if (available) {
-    const audio = new Audio('http://sfxcontent.s3.amazonaws.com/soundfx/AircraftAlarm.mp3');
+    const audio = new Audio('https://sfxcontent.s3.amazonaws.com/soundfx/AircraftAlarm.mp3');
     audio.loop = true
     audio.play()
   }
